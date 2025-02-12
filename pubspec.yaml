@@ -4,12 +4,12 @@ publish_to: 'none'
 version: 0.1.0
 
 environment:
-  sdk: ^3.6.1
+  sdk: ">=3.6.1 <4.0.0"
 
 dependencies:
   flutter:
     sdk: flutter
-  flutter_slidable: ^2.0.0 # Para eliminar gastos deslizándolos
+  flutter_slidable: ^4.0.0 # Para eliminar gastos deslizándolos
 
 dev_dependencies:
   flutter_test:
@@ -18,3 +18,5 @@ dev_dependencies:
 
 flutter:
   uses-material-design: true
+  assets:
+    - assets/empty.png
